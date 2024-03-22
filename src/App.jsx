@@ -54,11 +54,14 @@ const App = () => {
   return (
     <div className="App">
       <div className="Bank">
-      <h1>Bank Transactions</h1>
+        <div className='Title'>
+        <h1>The Royal Bank of Flatiron</h1>
+        </div>
+      <h2>Bank Transactions</h2>
       </div>
       <TransactionForm addTransaction={addTransaction} />
       <div className= "search">
-      <input type="text" placeholder="Search your recent transactions" value={searchTerm} onChange={handleSearch} />
+      <input type="text" placeholder="Search recent transactions" value={searchTerm} onChange={handleSearch} />
       </div>
       <TransactionList transactions={filteredTransactions} />
     </div>
