@@ -39,9 +39,9 @@ Use the following step to run the app.
 
 - Run the application on the browser locally: json-server --watch db.json
 
-- Deploy on the sever on the internet: https://json-server-9l2l.onrender.com/bots
+- Deploy the server on the internet using:
 
-- Access the deployed application using: https://botbattlr-mary-njoroge-dzga-5u212w5xv-marys-projects-55ef37d9.vercel.app/
+- Access the deployed application using: 
 
 # Authors
 This project was contributed to by:
