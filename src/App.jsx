@@ -4,7 +4,7 @@ import TransactionForm from './components/TransactionForm';
 import './App.css'
 
 const App = () => {
-  const api = "http://localhost:3000/transactions";
+  const api = "https://json-server-m.onrender.com/transactions";
   const [transactions, setTransactions] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
