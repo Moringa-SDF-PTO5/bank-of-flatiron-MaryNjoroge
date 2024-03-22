@@ -5,11 +5,18 @@ const TransactionList = ({ transactions }) => {
     <div className="transaction-list">
       <h2>Transactions</h2>
       <table>
+      
         <thead>
           <tr>
+
             <th>Date</th>
+            
+            
             <th>Description</th>
+            
+            
             <th>Amount</th>
+            
           </tr>
         </thead>
         <tbody>

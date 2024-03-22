@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TransactionList from './components/TransactionList';
 import TransactionForm from './components/TransactionForm';
+import './App.css'
 
 const App = () => {
   const api = "http://localhost:3000/transactions";
@@ -52,9 +53,13 @@ const App = () => {
   
   return (
     <div className="App">
+      <div className="Bank">
       <h1>Bank Transactions</h1>
+      </div>
       <TransactionForm addTransaction={addTransaction} />
-      <input type="text" placeholder="Search by description" value={searchTerm} onChange={handleSearch} />
+      <div className= "search">
+      <input type="text" placeholder="Search your recent transactions" value={searchTerm} onChange={handleSearch} />
+      </div>
       <TransactionList transactions={filteredTransactions} />
     </div>
   );
