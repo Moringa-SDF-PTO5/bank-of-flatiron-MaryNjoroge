@@ -9,7 +9,7 @@ data
 In order for you to use the content on this repo ensure you have the following:
 - Ensure you have json-server installed on your machine.
 - Run this command to get the backend started: $ json-server --watch db.json
-- Test your server by visiting this route in the browser: http://localhost:3000/bots
+- Test your server by visiting this route in the browser: http://localhost:3000/transactions
 - A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
 - nodejs 9.0+
 
@@ -39,9 +39,7 @@ Use the following step to run the app.
 
 - Run the application on the browser locally: json-server --watch db.json
 
-- Deploy the server on the internet using:
-
-- Access the deployed application using: 
+- Access the deployed application using: https://bank-of-flatiron-mary-njoroge-3wc5.vercel.app/
 
 # Authors
 This project was contributed to by:
