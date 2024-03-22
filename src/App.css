@@ -4,20 +4,20 @@ body{
 .transaction-list{
     border: 1px solid black;
     position:relative;
-    left: 10%;
+    left: 20%;
     display:grid
 }
 .transaction-form{
     position: relative;
-    left: 10%;
+    left: 20%;
 }
 .search{
     position: relative;
-    left:10%;
+    left: 20%;
 }
 .Bank{
     position: relative;
-    left : 10%;
+    left : 20%;
 }
 .date{
     border: 1px solid black
@@ -25,4 +25,8 @@ body{
 
 .categories{
     display: grid;
+}
+.Title{
+    position: relative;
+    left: 25%;
 }
