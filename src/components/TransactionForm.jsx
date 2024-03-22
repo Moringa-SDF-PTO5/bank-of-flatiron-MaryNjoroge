@@ -4,6 +4,7 @@ const TransactionForm = ({ addTransaction }) => {
   const [formData, setFormData] = useState({
     date: '',
     description: '',
+    category: '',
     amount: 0
   });
 
@@ -18,6 +19,7 @@ const TransactionForm = ({ addTransaction }) => {
     setFormData({
       date: '',
       description: '',
+      category: '',
       amount: 0
     });
   };
@@ -30,8 +32,12 @@ const TransactionForm = ({ addTransaction }) => {
         <input type="date" name="date" value={formData.date} onChange={handleChange} />
         <label>Description:</label>
         <input type="text" name="description" value={formData.description} onChange={handleChange} />
+        <label>Category:</label>
+        <input type="text" name="category" value={formData.category} onChange={handleChange} />
         <label>Amount:</label>
         <input type="number" name="amount" value={formData.amount} onChange={handleChange} />
+        
+
         <button type="submit">Add Transaction</button>
       </form>
     </div>
