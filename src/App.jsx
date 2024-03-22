@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TransactionList from './components/TransactionList';
 import TransactionForm from './components/TransactionForm';
-import axios from 'axios';
 
 const App = () => {
   const api = "http://localhost:3000/transactions";
